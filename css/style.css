@@ -72,6 +72,7 @@ header {
 
 .portfolio {
     text-align: center;
+    margin: 30px 0;
 }
 
 .item-image img {
@@ -80,9 +81,18 @@ header {
 
 .item-image {
     width: 100%;
-    margin: 10px 10px;
+    margin: 10px 0;
 }
 /* END PORTFOLIO SECTION */
+
+/* ABOUT SECTION */
+.about {
+    text-align: center;
+    background-color: lightgreen;
+}
+
+
+/* END ABOUT SECTION */
 
 
 
