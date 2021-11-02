@@ -1,0 +1,41 @@
+header {
+    background-color: #001a4d;
+    color: white;
+}
+
+.start,
+.burger {
+    margin: 30px 20px;
+}
+
+.burger,
+.menu {
+    text-align: right;
+}
+
+.menu {
+    margin: 30px 20px;
+}
+
+.start {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
