@@ -82,6 +82,7 @@ section {
     margin-bottom: 20px;
 }
 
+/* STAR ICON */
 .icon-star {
     font-size: 26px;
 }
@@ -92,6 +93,7 @@ section {
     font-weight: bold;
     width: 10%;
 }
+/* END STAR ICON */
 
 .jumbotron-intro {
     font-size: 18px;
@@ -122,6 +124,8 @@ section {
     color: white;
     border-color: white;
 }
+
+/* CONTACT SECTION */
 input[type="text"],
 input[type="email"],
 textarea.form-control {
@@ -139,6 +143,8 @@ textarea.form-control {
     background-color: #1abc9c;
     border-color: #1abc9c;
 }
+/* END CONTACT SECTION */
+
 /* FOOTER */
 footer {
     color: white;
@@ -204,7 +210,10 @@ footer {
     font-size: 18px;
     padding: 5px 10px;
 }
+
 /* Footer bottom */
 .footer-bottom {
     text-align: center;
 }
+
+/* END */
