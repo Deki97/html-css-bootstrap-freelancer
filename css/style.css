@@ -140,6 +140,7 @@ footer {
 .footer-top {
     background-color: #3b546d;
     padding: 40px;
+    text-align: center;
 }
 .footer-bottom {
     background-color: #2d3e4f;
@@ -147,6 +148,54 @@ footer {
 }
 .footer-col-content {
     margin-bottom: 30px;
+}
+
+.footer-col-title {
+    font-size: 22px;
+}
+.social-container {
+    margin-top: 10px;
+}
+.social-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-container li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.social-container a {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.text-green {
+    color: #1abc9c;
+}
+
+.fb-logo {
+    font-size: 18px;
+    padding: 5px 12px;
+}
+
+.gg-logo {
+    font-size: 18px;
+    padding: 5px 6px;
+}
+
+.tw-logo {
+    font-size: 18px;
+    padding: 5px 8px;
+}
+
+.in-logo {
+    font-size: 18px;
+    padding: 5px 10px;
 }
 /* Footer bottom */
 .footer-bottom {
