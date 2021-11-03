@@ -6,6 +6,14 @@ footer ul {
     list-style-type: none;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
 /* Backgrounds */
 .green_background {
     background-color: #1abc9c;
@@ -59,20 +67,40 @@ section {
     text-align: center;
 }
 .section-heading h2 {
-    font-size: 40px;
+    font-size: 30px;
 }
 /* Jumbotron section */
 .jumbotron {
     text-align: center;
 }
+
+.jumbotron-image img {
+    width: 220px;
+}
+
+.jumbotron-image {
+    margin-bottom: 20px;
+}
+
+.icon-star {
+    font-size: 26px;
+}
+
+.jumbotron-intro {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
 /* Portfolio section */
 .portfolio-item-content {
     margin-bottom: 20px;
-
-    /* TEST */
-    background-color: blue;
-    height: 200px;
+    border-radius: 10px;   
 }
+
+.portfolio-item-content img {
+    border-radius: 10px;
+}
+
 /* About section */
 .about-content-item {
     margin-bottom: 30px;
@@ -80,7 +108,13 @@ section {
 .about-download {
     text-align: center;
 }
-
+.about-download i {
+    padding-right: 5px;
+}
+.btn_download {
+    color: white;
+    border-color: white;
+}
 /* FOOTER */
 footer {
     color: white;
