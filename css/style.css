@@ -115,6 +115,23 @@ section {
     color: white;
     border-color: white;
 }
+input[type="text"],
+input[type="email"],
+textarea.form-control {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.btn_submit {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
 /* FOOTER */
 footer {
     color: white;
