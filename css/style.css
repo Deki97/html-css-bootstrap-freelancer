@@ -86,6 +86,13 @@ section {
     font-size: 26px;
 }
 
+.icon-star::before,
+.icon-star::after {
+    content: '\2015 \2015 \2015';
+    font-weight: bold;
+    width: 10%;
+}
+
 .jumbotron-intro {
     font-size: 18px;
     margin-top: 10px;
