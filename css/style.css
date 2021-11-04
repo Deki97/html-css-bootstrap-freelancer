@@ -169,6 +169,7 @@ footer {
 .social-container {
     margin-top: 10px;
 }
+
 .social-container ul {
     list-style-type: none;
     margin: 0;
@@ -177,7 +178,6 @@ footer {
 
 .social-container li {
     display: inline-block;
-    margin: 0 3px;
 }
 
 .social-container a {
@@ -185,30 +185,14 @@ footer {
     color: inherit;
     border: 1px solid white;
     border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    line-height: 45px;
 }
 
 .text-green {
     color: #1abc9c;
-}
-
-.fb-logo {
-    font-size: 18px;
-    padding: 5px 12px;
-}
-
-.gg-logo {
-    font-size: 18px;
-    padding: 5px 6px;
-}
-
-.tw-logo {
-    font-size: 18px;
-    padding: 5px 8px;
-}
-
-.in-logo {
-    font-size: 18px;
-    padding: 5px 10px;
 }
 
 /* Footer bottom */
